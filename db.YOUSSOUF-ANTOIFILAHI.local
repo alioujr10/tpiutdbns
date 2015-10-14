@@ -1,0 +1,17 @@
+;------------ YOUSSOUF-ANTOIFILAHI.local -------------
+$TTL 1h;
+@ IN SOA wheezy-auto.YOUSSOUF-ANTOIFILAHI.local. YOUSSOUF-ANTOIFILAHI.local. (
+2015091301 ; Serial
+3600 ; Refresh(6h)
+3600 ; Retry(6h)
+3600000 ; Expire(41j)
+86400 ) ; Minimum(24h)
+$ORIGIN YOUSSOUF-ANTOIFILAHI.local.
+@       IN      NS wheezy-auto
+@       IN      MX      0        mail.YOUSSOUF-ANTOIFILAHI.local.
+wheezy-auto IN A 10.204.0.57
+mail   IN A 10.204.0.61
+
+smtp IN CNAME wheezy-auto
+pop IN  CNAME wheezy-auto
+imap IN CNAME wheezy-auto

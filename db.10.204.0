@@ -1,0 +1,14 @@
+;------------db.10.204.0-------------
+$TTL 1h;
+@ IN SOA wheezy-auto.YOUSSOUF-ANTOIFILAHI.local. YOUSSOUF-ANTOIFILAHI.local. (
+2015091301 ; Serial
+3600 ; Refresh(1h)
+3600 ; Retry(1h)
+3600000 ; Expire(41j)
+86400 ) ; Minimum(24h)
+
+
+@  IN NS wheezy-auto.YOUSSOUF-ANTOIFILAHI.local.
+$ORIGIN 0.204.10.in-addr.arpa.
+57 IN PTR  wheezy-auto.YOUSSOUF-ANTOIFILAHI.local.
+
